@@ -1,0 +1,12 @@
+{
+  "name": "evernavigator",
+  "description": "evernavigator app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "express": "3.0.5",
+    "mongoose": "3.5.2",
+    "ejs": "0.8.3",
+    "async": "0.1.22"
+  }
+}
