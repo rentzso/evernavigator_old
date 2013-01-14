@@ -71,7 +71,6 @@ var initialize = function(json, limits, force, color){
           }
         );
 
-    console.log(json.foci);
 
 
     return json;
@@ -93,8 +92,6 @@ var graphEngine = function(jsonfile, width, height, padding, force, svg, color){
 
 
     d3.json(jsonfile, function(jsonOut){
-        console.log(jsonfile);
-        console.log(jsonOut.nodes.length);
 
         var json = initialize(jsonOut, {xmin: 0, xmax: width, ymin: 0, ymax: height}, force, color);
 
@@ -363,7 +360,6 @@ var svg = function(){
 };
 
 
-// MyUserId = 154393
 graphEngine('graph/' + userId, width, height, padding, force(), svg(), color);
 $("div.graph").css("width", $("div.graph svg").css("width"));
 $("div.graph").css("height", $("div.graph svg").css("height"));

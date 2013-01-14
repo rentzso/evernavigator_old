@@ -3,12 +3,12 @@ var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/evernavigator');
 
 
-// the Schema used to store
-// each tag
+// the Schema used to store each tag
+
 var nodeSchema = new mongoose.Schema({
 	    userId: Number,
 		tag: String, 
-		guid: String, //tag unique identifier
+		guid: String, //unique identifier for the tag
 		count: Number, // number of notes for which the tag has been used.
 		notes: [{guid: String, title: String}], // list of guids and titles of the notes tagged with this tag
 		related: [{tag: String, guid: String, count: Number}] // list of related tags
