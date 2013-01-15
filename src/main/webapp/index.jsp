@@ -113,13 +113,11 @@
   
     
 } %>
-<!-- Manual operation controls -->
-<hr/>
+
 <h3>Three steps to get your evernavigator graph</h3>
 
-<ol>
 	
-	
+<ul>
 
 	<li>
 <%
@@ -163,6 +161,6 @@
   Get your evernote graph!
 <% } %>
   </li>
-</ol>
+</ul>
 
 <% } %>
