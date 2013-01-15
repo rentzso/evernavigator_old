@@ -4,9 +4,9 @@ By clicking on a single node you can also see the tags related to the node click
 <a href="https://dl.dropbox.com/u/39271033/everNavigator3/index.html">Here</a> you can find a static version of this <a href="https://dl.dropbox.com/u/39271033/everNavigator3/index.html">application</a>
 built from my evernote data.<br/>
 <h2/>
+There are two parts in the application:
 <ul>
-	There are two parts in the application:
-	<li>"Registration"  in which the user stores his tags on MongoDB: written in Java, JSP</li>
+	<li>"Registration"  in which the user stores his tags on MongoDB: written in Java, JSP.</li>
  	<li>"Visualization" in which the user can explore his evernote graph: written in node.js, using d3.js to create the graph visualization.</li>
 </ul>
 
